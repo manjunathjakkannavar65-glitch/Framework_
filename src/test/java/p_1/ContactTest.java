@@ -6,7 +6,7 @@ public class ContactTest {
 @Test
 public void createcontactTest() {
 	String URL=System.getProperty("url");
-	String BROWSER=System.getProperty("browser");
+	String BROWSER=System.getProperty("browser","chrome");
 	String USERNAME=System.getProperty("username");
 	String PASSWORD=System.getProperty("password");
 	
